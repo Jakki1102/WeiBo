@@ -7,7 +7,7 @@ import json
 
 def get_sentiment(string):
    try:
-      cred = credential.Credential("AKIDilfUAfrgBUbWFmRHJ9nFbqtkFcnnOCcq", "97ua4UzNsUxFLJ5g6KQL8kOsDRTIvzuh") 
+      cred = credential.Credential("AKIDilfUAfrgBUbWFm", "97ua4UzNsUxFLJ5") 
       httpProfile = HttpProfile()
       httpProfile.endpoint = "nlp.tencentcloudapi.com"
 
